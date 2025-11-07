@@ -2,13 +2,7 @@
 
 ## Overview
 This repository contains a simple script **app.py** that checks the "soundness" of a smart contract by reading its bytecode and calculating its hash using **web3.py**.  
-It is compatible with projects related to **Aztec**, **Zama**, **Ethereum**, and other zero-knowledge or web3-based ecosystems where code integrity verification is important.
-
-## Features
-- Verifies the existence and integrity of on-chain bytecode.  
-- Supports any EVM-compatible network (Ethereum, Aztec, Zama, Polygon, etc.).  
-- Simple and lightweight — no external dependencies beyond web3.py.  
-- Easily extendable for automatic code comparison or verification proofs.  
+It is compatible with projects related to **Aztec**, **Zama**, **Ethereum**, and other zero-knowledge or web3-based ecosystems where code integrity verification is important. 
 
 ## Installation
 1. Install Python 3.10+  
