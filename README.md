@@ -23,12 +23,6 @@ It is compatible with projects related to **Aztec**, **Zama**, **Ethereum**, and
 The script will connect to the RPC endpoint, fetch the smart contract bytecode, and calculate its hash.  
 If the code exists, it will display a success message confirming the contract’s soundness.
 
-## How It Works
-1. Connects to the specified blockchain node via web3.  
-2. Fetches the deployed contract’s bytecode from the blockchain.  
-3. Computes the Keccak-256 hash of the bytecode.  
-4. Prints the hash and a verification status message.  
-
 Example output:
 🔧 Web3 Soundness Checker (Aztec/Zama compatible)  
 🔍 Contract Address: 0x00000000219ab540356cBB839Cbe05303d7705Fa  
