@@ -29,6 +29,12 @@ Example output:
 Code Hash: 0x8a8a9b6c7f3f6c9b44a99a9d5e41ab8bb5d66a3a5e04afcb9e8c9e7776e2b3d9  
 ✅ Contract soundness verified (code present)
 
+## How It Works
+1. Connects to the specified blockchain node via web3.  
+2. Fetches the deployed contract’s bytecode from the blockchain.  
+3. Computes the Keccak-256 hash of the bytecode.  
+4. Prints the hash and a verification status message.
+
 ## Notes
 - You can use any RPC endpoint, including private ones (e.g., for Aztec or Zama networks).  
 - For stricter validation, compare the hash with a known reference hash from a trusted source.  
